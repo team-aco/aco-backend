@@ -1,0 +1,28 @@
+{
+  "name": "aco-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/team-aco/aco-backend.git",
+  "author": "smallThinking <wnsdnek778@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_PATH=src nodemon --inspect src/local --exec babel-node src/local.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.5.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "webpack": "^4.35.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "koa": "^2.7.0",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.19.1"
+  }
+}
